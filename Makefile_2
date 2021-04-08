@@ -1,4 +1,4 @@
 OBJS :=hello.o
-CC :=Gcc
+CC :=gcc
 hello:$(OBJS)
     $(CC) $^ -o $@
