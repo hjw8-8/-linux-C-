@@ -1,0 +1,4 @@
+OBJS :=hello.o
+CC :=Gcc
+hello:$(OBJS)
+    $(CC) $^ -o $@
